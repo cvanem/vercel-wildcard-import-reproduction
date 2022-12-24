@@ -1,5 +1,5 @@
-import { Info } from '@mui/icons-material';
+import * as Icons from '@mui/icons-material';
 
 export default function Home() {
-  return <Info />;
+  return <Icons.Phone />;
 }
