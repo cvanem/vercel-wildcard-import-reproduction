@@ -7,7 +7,7 @@ import { CacheProvider, EmotionCache } from '@emotion/react';
 import theme from '../styles/theme';
 import createEmotionCache from '../styles/createEmotionCache';
 import type { NextPage } from 'next';
-import Phone from '@mui/icons-material/Phone';
+import * as Icons from '@mui/icons-material';
 
 type EnhancedAppProps = AppProps & {
   Component: NextPage;
@@ -26,7 +26,7 @@ export default function MyApp(props: EnhancedAppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Phone />
+        <Icons.ArrowForward />
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>
