@@ -7,7 +7,7 @@ import { CacheProvider, EmotionCache } from '@emotion/react';
 import theme from '../styles/theme';
 import createEmotionCache from '../styles/createEmotionCache';
 import type { NextPage } from 'next';
-import { Phone } from '@mui/icons-material';
+import Phone from '@mui/icons-material/Phone';
 
 type EnhancedAppProps = AppProps & {
   Component: NextPage;
